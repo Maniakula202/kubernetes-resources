@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: Config-Map 
+  name: config-map
 data: 
   course: "DevSecOps with AWS"
   trainer: "Siva Kumar"
   duration: "120HRS"
-  student: manikanta
+  student: Mani
