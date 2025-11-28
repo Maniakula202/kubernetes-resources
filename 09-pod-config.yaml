@@ -4,8 +4,10 @@ metadata:
   name: pod-config-demo
 spec:
   containers:
-    - name: nginx
-      image: nginx
-      envFrom:
-      - configMapKeyRef:
-          name: config-map
+  - name: nginx
+    image: nginx
+    envFrom:
+    - configMapKeyRef:
+        name: config-map
+
+  
