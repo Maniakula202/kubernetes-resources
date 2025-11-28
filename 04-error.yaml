@@ -1,12 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: nginx
+  name: error-test
   labels:
     project: roboshop
     environment: development
   namespace: roboshop
 spec:
   containers:
-  - name: nginx
-    image: nginxfghjkoiytfg
+  # - name: nginx
+  #   image: nginxfghjkoiytfg
+  - name: almalinux
+    image: almalinux:9
