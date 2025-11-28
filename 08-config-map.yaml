@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: Config-Map 
+data: 
+  course: "DevSecOps with AWS"
+  trainer: "Siva Kumar"
+  duration: "120HRS"
+  student: manikanta
