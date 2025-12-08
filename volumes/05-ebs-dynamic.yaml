@@ -22,10 +22,9 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  volumeMounts:
-  - name: ebs-nginx
-    path: /usr/share/nginx/html
-  
+    volumeMounts:
+    - name: ebs-nginx
+      path: /usr/share/nginx/html
   volumes:
   - name: ebs-nginx
     persistentVolumeClaim:
