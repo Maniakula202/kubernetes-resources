@@ -49,7 +49,6 @@ metadata:
   name: nginx-service
 spec:
   clusterIP: None
-  type: LoadBalancer
   selector:
     purpose: dp-demo
     project: roboshop
